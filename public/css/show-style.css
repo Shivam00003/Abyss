@@ -1,0 +1,13 @@
+.show-img{
+    width: 50vw;
+    height: 70vh;
+    border-radius: 1rem;
+}
+.btns{
+    display: flex;
+}
+.edt-btn{
+    background-color: red !important;
+    border: 2px solid red !important;
+    width: 10vw;
+}

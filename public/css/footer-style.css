@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 6rem;
+    background-color: rgb(238, 237, 237);
+}
+.f-socialmedia-icons{
+    display: flex;
+    flex-grow: 1;
+    font-size: 1.2rem;
+}
+.fa-brands,.space{
+    color: black;
+    margin-right: 0.35rem;
+    margin-left: 0.35rem;
+}
+.f-companyName{
+    color: black;
+    display: flex;
+    flex-grow: 1;
+}
+.f-companyName a,.f-company-links a{
+    color: black;
+    text-decoration: none;
+}
+.f-company-links{
+    display: flex;
+    flex-grow: 1;
+}
+.f-company-links a:hover{
+    text-decoration: underline;
+}
